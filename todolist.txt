@@ -3,3 +3,16 @@
 
 * Add the github and website icons
 
+
+* Two column layout, with a media query that gives each col 100% width on mobile
+
+* Front Page with github and linked in links
+
+* Contact Page with Phone/Email
+
+
+* Write update Readmes for each project
+
+
+* Update linkedin
+
