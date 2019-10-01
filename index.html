@@ -7,55 +7,94 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./accordion.css">
 </head>
 
 <body>
 
     <div class="container">
 
-    <div class="row">
+        <div class="row">
 
-    <div class="col-8">
-    <div class="card-group" id="myaccordian">
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h3 class="panel-title" data-target="#panel-1" data-toggle="collapse" data-parent="#myaccordian">First Portfolio</h3>
-            </div>
-            <div class="panel-collapse collapse" id="panel-1">
-                <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum amet provident modi corporis
-                        veniam labore reiciendis vel deserunt ipsam maiores error velit id, quos, a repudiandae dolore.
-                        Officiis, omnis magnam.</p>
+            <div class="col-8">
+                <div class="panel-group" id="myaccordian">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-target="#panel-1" data-toggle="collapse"
+                                data-parent="#myaccordian">First Portfolio</h3>
+                        </div>
+                        <div class="panel-collapse collapse" id="panel-1">
+                            <div class="panel-body">
+                                <p>My First Portfolio project utilized a simple layout to introduce myself as a programmer to the world.
+                                    Highlights include the 'pen-and-paper' style heading, as well as custom css on the introductory photo, as well as
+                                    a card layout with a hover mechanic in the sample future project section.
+                                    The technologies employed during the develoment include HTML, CSS, and Bootstrap.
+                                </p>
+                                    <div class="row">
+                                <div class="gallery">
+                                    <div class="desc"><b>Check Out the Github!</b></div>
+                                    <img src="./octocat.png" class="octocat">
+                                </div>
+
+                                <div class="gallery">
+                                    <div class="desc"><b>Visit the Website!</b></div>
+                                    <img src="./internet.png" class="internet">
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-target="#panel-2" data-toggle="collapse"
+                                data-parent="#myaccordian">Second Assignment</h3>
+                        </div>
+                        <div class="panel-collapse collapse" id="panel-2">
+                            <div class="panel-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum amet provident
+                                    modi corporis
+                                    veniam labore reiciendis vel deserunt ipsam maiores error velit id, quos, a
+                                    repudiandae dolore.
+                                    Officiis, omnis magnam.</p>
+                                    <div class="gallery">
+                                            <div class="desc"><b>Check Out the Github!</b></div>
+                                            <img src="./octocat.png" class="octocat">
+                                        </div>
+        
+                                        <div class="gallery">
+                                            <div class="desc"><b>Visit the Website!</b></div>
+                                            <img src="./internet.png" class="internet">
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" data-target="#panel-3" data-toggle="collapse"
+                                data-parent="#myaccordian">Third Assignment</h3>
+                        </div>
+                        <div class="panel-collapse collapse" id="panel-3">
+                            <div class="panel-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum amet provident
+                                    modi corporis
+                                    veniam labore reiciendis vel deserunt ipsam maiores error velit id, quos, a
+                                    repudiandae dolore.
+                                    Officiis, omnis magnam.</p>
+                                    <div class="gallery">
+                                            <div class="desc"><b>Check Out the Github!</b></div>
+                                            <img src="./octocat.png" class="octocat">
+                                        </div>
+        
+                                        <div class="gallery">
+                                            <div class="desc"><b>Visit the Website!</b></div>
+                                            <img src="./internet.png" class="internet">
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h3 class="panel-title" data-target="#panel-2" data-toggle="collapse" data-parent="#myaccordian">Second Assignment</h3>
-            </div>
-            <div class="panel-collapse collapse" id="panel-2">
-                <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum amet provident modi corporis
-                        veniam labore reiciendis vel deserunt ipsam maiores error velit id, quos, a repudiandae dolore.
-                        Officiis, omnis magnam.</p>
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h3 class="panel-title" data-target="#panel-3" data-toggle="collapse" data-parent="#myaccordian">Third Assignment</h3>
-            </div>
-            <div class="panel-collapse collapse" id="panel-3">
-                <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum amet provident modi corporis
-                        veniam labore reiciendis vel deserunt ipsam maiores error velit id, quos, a repudiandae dolore.
-                        Officiis, omnis magnam.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
