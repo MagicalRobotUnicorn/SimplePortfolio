@@ -2,188 +2,51 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./accordion.css">
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap" rel="stylesheet">
+  <link href="assets/css/about-stylesheet.css" rel="stylesheet">
+  <link rel="icon" href="assets/images/rocketship.ico">
 </head>
 
 <body>
+    <div class="main-container">
+      <header class="inner-header">
+        <div class="name">
+          <h2 id="page-title">John Henry Weber</h2>
+        </div>
+        <div class="nav">
+            <h2><a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a></h2>
+        </div>
+      </header>
 
-    <div class="container">
+      <div class="header"></div>
+      <div class="total-content">
+        <div class="title">
+          <h1>About Me</h1>
+        </div>
+        <img class="img-circle" src="assets/images/henry.jpg" alt="Picture of John Henry Weber">
 
-        <div class="row">
-
-            <div class="col-8">
-                <div class="panel-group" id="myaccordian">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title" data-target="#panel-1" data-toggle="collapse"
-                                data-parent="#myaccordian">First Portfolio</h3>
-                        </div>
-                        <div class="panel-collapse collapse" id="panel-1">
-                            <div class="panel-body">
-                                <p>My First Portfolio project utilized a simple layout to introduce myself as a
-                                    programmer to the world.
-                                    Highlights include the 'pen-and-paper' style heading, as well as custom css on the
-                                    introductory photo, as well as
-                                    a card layout with a hover mechanic in the sample future project section.
-                                    The technologies employed during the develoment include HTML, CSS, and Bootstrap.
-                                </p>
-                                <div class="row">
-                                    <div class="gallery">
-                                        <div class="desc"><b>Check Out the Github!</b></div>
-                                        <img src="./octocat.png" class="octocat">
-                                    </div>
-
-                                    <div class="gallery">
-                                        <div class="desc"><b>Visit the Website!</b></div>
-                                        <img src="./internet.png" class="internet">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title" data-target="#panel-2" data-toggle="collapse"
-                                data-parent="#myaccordian">Star Wars jQuery Game</h3>
-                        </div>
-                        <div class="panel-collapse collapse" id="panel-2">
-                            <div class="panel-body">
-                                <p>The Star Wars jQuery game was project that was developed along a strict set of rules.
-                                    The player
-                                    chooses a character, and after each attack the players attack is doubled. There is a
-                                    win condition for every character.
-                                    This site features a 'Star Wars' themed design, complete with custom logos, and an
-                                    introductory video poking fun at our class's development pace.
-                                    Technologies employed include HTML, CSS, vanilla Javascript, as well as jQuery.
-                                </p>
-                                <div class="gallery">
-                                    <div class="desc"><b>Check Out the Github!</b></div>
-                                    <img src="./octocat.png" class="octocat">
-                                </div>
-
-                                <div class="gallery">
-                                    <div class="desc"><b>Visit the Website!</b></div>
-                                    <img src="./internet.png" class="internet">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title" data-target="#panel-3" data-toggle="collapse"
-                                data-parent="#myaccordian">Heavy Metal Quiz Game</h3>
-                        </div>
-                        <div class="panel-collapse collapse" id="panel-3">
-                            <div class="panel-body">
-                                <p>Do you like heavy metal? Do you like quiz games? Well then, this website is for you!
-                                    The website tracks keypress events
-                                    and allows the user to play a hangman style game. Upon completion, the user is shown
-                                    a photo, as well as an audio sample from the artist in question.
-                                    This website features a 'metal' themed logo and asset set, either by my own design
-                                    or drawn from material in the public domain. The fonts match the asthetic as well.
-                                    The technologies employed include HTML, CSS, vanilla Javascript as well as jQuery.
-                                </p>
-                                <div class="gallery">
-                                    <div class="desc"><b>Check Out the Github!</b></div>
-                                    <img src="./octocat.png" class="octocat">
-                                </div>
-
-                                <div class="gallery">
-                                    <div class="desc"><b>Visit the Website!</b></div>
-                                    <img src="./internet.png" class="internet">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <h3 class="panel-title" data-target="#panel-4" data-toggle="collapse"
-                                data-parent="#myaccordian">Harry Potter Giftastic</h3>
-                        </div>
-                        <div class="panel-collapse collapse" id="panel-4">
-                            <div class="panel-body">
-                                <p>There is a new course being offered at Hogwarts... Magical GIFs! This site utilizes REST API's in order to provide the user a unique experience...
-                                    When the user "prepares" a spell, they can then use it to display an assortment of GIF's from Giphy's collection of GIFs on that subject. The user can also "sort" themselves using infomation drawn for the Harry Potter API.
-                                    This site features a Harry Potter theme, with logos of my own design, as well as a series of font faces that fit the overall design goal. The technologies utilized include HTML, CSS, vanilla Javascript, jQuery, and REST APIs.
-                                </p>
-                                <div class="gallery">
-                                    <div class="desc"><b>Check Out the Github!</b></div>
-                                    <img src="./octocat.png" class="octocat">
-                                </div>
-
-                                <div class="gallery">
-                                    <div class="desc"><b>Visit the Website!</b></div>
-                                    <img src="./internet.png" class="internet">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title" data-target="#panel-6" data-toggle="collapse"
-                                    data-parent="#myaccordian">Train Scheduler</h3>
-                            </div>
-                            <div class="panel-collapse collapse" id="panel-6">
-                                <div class="panel-body">
-                                    <p>Hop aboard Magical Railways to reach your ultimate destination! This assignment utilizes a cloud based database, Google Firestore, in order to provide the user a fictional train schedule. 
-                                        The next train arrival time is calculated with MomentJS, a Javscript library that allows for the easy manipulation of datetime objects. Each trainstop relates to a location in the children's game 
-                                        Candyland, but feel free to add your own! Once a train is added, the database will update in real time and the information will be accessible by ever visitor to the site. The 
-                                        technologies employed include HTML, CSS, Javascript, jQuery, MomentJS, and Google Firebase.
-                                    </p>
-                                        <div class="gallery">
-                                                <div class="desc"><b>Check Out the Github!</b></div>
-                                                <img src="./octocat.png" class="octocat">
-                                            </div>
-            
-                                            <div class="gallery">
-                                                <div class="desc"><b>Visit the Website!</b></div>
-                                                <img src="./internet.png" class="internet">
-                                            </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-primary">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title" data-target="#panel-7" data-toggle="collapse"
-                                        data-parent="#myaccordian">Heavy Metal Quiz Game</h3>
-                                </div>
-                                <div class="panel-collapse collapse" id="panel-7">
-                                    <div class="panel-body">
-                                        <p>Do you like heavy metal? Do you like quiz games? Well then, this website is for you! The website tracks keypress events 
-                                            and allows the user to play a hangman style game. Upon completion, the user is shown a photo, as well as an audio sample from the artist in question.
-                                            This website features a 'metal' themed logo and asset set, either by my own design or drawn from material in the public domain. The fonts match the asthetic as well.
-                                            The technologies employed include HTML, CSS, vanilla Javascript as well as jQuery.
-                                        </p>
-                                            <div class="gallery">
-                                                    <div class="desc"><b>Check Out the Github!</b></div>
-                                                    <img src="./octocat.png" class="octocat">
-                                                </div>
-                
-                                                <div class="gallery">
-                                                    <div class="desc"><b>Visit the Website!</b></div>
-                                                    <img src="./internet.png" class="internet">
-                                                </div>
-                                    </div>
-                                </div>
-                            </div>
-                </div>
-            </div>
+        <div class="word-content">
+          <h2>My Name is John Henry Weber.</h2>
+            <h2>I am a gemini, enjoy long walks on the beach, and can code one hell of a website.</h2>
+            <h2>Be sure to check out my portfolio to see some of the work you or your company would be in store for if
+              you
+              secure my services.</h2>
+            <h2>Drop me a line by clicking on the contact tab. I hope to hear from you soon!</h2>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="footer">
+      <div class="inner-header">
+        <div class="nav">
+            &#169; John Henry Weber, 2019
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    </div>
 </body>
 
 </html>
