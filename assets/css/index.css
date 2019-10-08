@@ -87,3 +87,35 @@ a {
   width: 10%;
   height: auto;
 }
+
+.linkedinImage {
+  width: 50%;
+  height: auto;
+  margin-left: 20%;
+  margin-bottom: 15%;
+}
+
+.octocatImage {
+  width: 50%;
+  height: auto;
+  padding-top: 5%; 
+  margin-left: 20%;
+  margin-bottom: 15%;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 45%;
+  align-content: center;
+}
+
+div.gallery img {
+  height: auto;
+  margin-bottom: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
